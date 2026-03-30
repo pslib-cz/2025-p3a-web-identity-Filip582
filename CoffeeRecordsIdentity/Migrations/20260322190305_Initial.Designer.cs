@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CoffeeRecordsIdentity.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(CoffeeRecordsIdentityContext))]
     [Migration("20260322190305_Initial")]
     partial class Initial
     {
